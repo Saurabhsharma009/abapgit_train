@@ -3,9 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>My Package SAUR</CTEXT>
-    <TPCLASS>X</TPCLASS>
-    <PACKKIND>5</PACKKIND>
+    <CTEXT>ok</CTEXT>
    </DEVC>
   </asx:values>
  </asx:abap>

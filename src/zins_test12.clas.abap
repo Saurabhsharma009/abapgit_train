@@ -32,6 +32,17 @@ CLASS zins_test12 IMPLEMENTATION.
      <fs_data>-name   = 'Madhav'.
      <fs_data>-class   = '5'.
 
+     append INITIAL LINE TO lt_data ASSIGNING <fs_data>.
+     <fs_data>-client = '800'.
+     <fs_data>-name   = 'Mohan'.
+     <fs_data>-class   = '1'.
+
+
+     append INITIAL LINE TO lt_data ASSIGNING <fs_data>.
+     <fs_data>-client = '800'.
+     <fs_data>-name   = 'Raj'.
+     <fs_data>-class   = '1'.
+
       MODIFY ZTEST12 from table @lt_data.
 
      out->write('Data inserted now !').
